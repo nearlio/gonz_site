@@ -1,21 +1,39 @@
-
-
 .body {
-    background-color: beige;
+    background-image: url("https://raw.githubusercontent.com/nearlio/gonz_site/main/Art/Gonz%20in%20the%20Fields.jpg");
+    background-color: #484542;
+
+    background-size: cover;
+    background-position: center;
+    max-width: 1250px;
+    border-radius: 1em;
+}
+
+/*Main box in center of background*/
+.mainContainer{
+    background-color: #e5ebeb;
+    background-position: center;
+    color: #7e6560;
+    font-size: 10.5pt;
+    border-radius: 1em;
 }
 
 .h1 {
+    color: #484542;
+    font-size: 2em;
     text-align: center;
 }
 
 .h2 {
+    color: #7e6560;
     font-style: italic;
+    font-size: 2em;
+    text-align: center;
 }
 
-/*4 Boxes of art next to each other*/
-.mainContainer{
-    border: 1px;
-    background:;
+.h3 {
+    color: #7e6560;
+    font-size: 2em;
+    text-align: center;
 }
 
 /*Main banner img styling*/
@@ -32,8 +50,7 @@
 .avatarCircle {
     float: left;
     border-radius: 50%;
-    max-width: 100%;
-    height: auto;
+    max-height: 200px;
 }
 
 /*4 Boxes of art next to each other*/
